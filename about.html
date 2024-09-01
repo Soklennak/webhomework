@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page</title>
+   
+    <style>*{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 100%;
+        height: 200vh;
+    }
+    nav{
+        background-color: tan;
+        display: flex;
+        flex-direction: row;
+        height: 5%;
+        font-weight: bold;
+       
+    }
+    
+    li, a{
+            list-style: none;
+            margin-top: 20px;
+            padding: 0px 20px;
+            font-weight: bold;
+            
+    }
+    
+    li a:hover{
+        background-color: tan;
+        padding:30px 20px 24px 20px;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: row;
+       
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+    .left{
+        width: 50%;
+        height: 70vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .right{
+        width: 40%;
+        height: 70vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    .boxx{
+        width: 30%;
+        border: none;
+        background-color: rgb(204, 114, 114);
+        margin-top: 30px;
+        padding: 70px;
+        margin-left: 100px;
+        border-radius: 30px;
+    }
+    .text{
+       margin-top: 40px;
+       display: flex;
+       align-self: flex-start;
+       text-align: start;
+       flex-direction: column;
+    }
+    
+    .box{
+        padding: 200px;
+        border: 2px solid red;
+        background-color: rgb(212, 126, 12);
+        border-radius: 50px;
+       
+    }</style>
+</head>
+<body>
+    <nav>
+        <li><a href="./Home.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./sevice.html">Sevice</a></li>
+    </nav>
+    <main>
+        <div class="left">
+             <div class="box">
+                <h1>About Box</h1></div>
+            <div class="text">
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quidem nostrum obcaecati beatae quia. Neque, corporis cupiditate, tenetur suscipit eum sapiente minima doloribus dolores, debitis praesentium perspiciatis optio maxime delectus!
+                Tempore eveniet repudiandae fugit dolorem. Tempora, quasi facilis? At non dolores corrupti quod iusto exercitationem cumque perferendis numquam, molestias magnam delectus ex sint. Iure facilis quod repellat praesentium assumenda atque.
+                Quia blanditiis deleniti ex beatae cumque ratione exercitationem nihil reiciendis eum ipsam fuga ducimus facilis cupiditate dicta unde, suscipit quisquam aliquam perspiciatis. Maxime, provident aliquid perspiciatis expedita est placeat repellendus.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, facilis ab obcaecati, eius voluptas perferendis incidunt, laborum est sint deserunt provident beatae repudiandae pariatur. Enim officia doloremque aspernatur maiores animi.</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="boxx">Box1</div>
+            <div class="boxx">Box2</div>
+            <div class="boxx">Box3</div>
+        </div>
+    </main>
+</body>
+</html>

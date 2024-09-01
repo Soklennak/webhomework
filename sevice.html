@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sevice page</title>
+    
+    <style>*{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 100%;
+        height: 200vh;
+       
+    }
+    nav{
+        background-color: rgb(211, 23, 170);
+        display: flex;
+        flex-direction: row;
+        height: 5%;
+        font-weight: bold;
+       
+    }
+    li , a{
+        list-style: none;
+        margin-top: 20px;
+        padding: 0px 20px;
+        font-weight: bold;
+       
+    }
+    li a:hover{
+         background-color: rgb(241, 125, 16);
+         padding:30px 20px 24px 20px;
+    }
+    table , thead, th {
+        border: 1px solid ;
+        border-collapse: collapse;
+        padding: 30px;
+    }
+    thead{
+        background-color: aqua;
+    }
+    tbody td:nth-child(even){
+        color: black;
+        background-color:plum ;
+    }
+    tbody tr:hover{
+    background:rgb(78, 140, 177);
+    color: black;
+    }
+    td, th {
+        border: 1px solid;
+        padding: 50px;
+        width: 200px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    main, h1{
+        text-align: center;
+        margin-top: 30px;
+    }</style>
+</head>
+<body>
+    <nav>
+        <li><a href="./Home.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./sevice.html">Sevice</a></li>
+    </nav>
+    <main>
+        <h1>Sevices table</h1>
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>N</th>
+                        <th>Name</th>
+                        <th> Gategory</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Fix Car</td>
+                        <td>Fixer</td>
+                        <td>100$</td>
+                    </tr>
+                
+                    <tr>
+                        <td>2</td>
+                        <td>Fix Car</td>
+                        <td>Fixer</td>
+                        <td>300$</td>
+                    </tr>
+                
+                    <tr>
+                        <td>3</td>
+                        <td>Fix Car</td>
+                        <td>Fixer</td>
+                        <td>400$</td>
+                    </tr>
+                
+                    <tr>
+                        <td>3</td>
+                        <td>Fix Car</td>
+                        <td>Fixer</td>
+                        <td>400$</td>
+                    </tr>
+                
+                    <tr>
+                        <td>4</td>
+                        <td>Fix Car</td>
+                        <td>Fixer</td>
+                        <td>500$</td>
+                    </tr>
+                
+                </tbody>
+    
+            </table>
+    </main>
+</body>
+</html>
